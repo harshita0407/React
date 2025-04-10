@@ -44,3 +44,17 @@
   margin: 40px 50px;
 } */
 
+.Convertbtn{
+  background-color: rgb(85, 85, 209);
+  color: white;
+  font-weight: 500;
+  border-radius: 8px;
+  border: 1px solid rgb(91, 91, 223);
+  padding: 5px;
+  margin-top: 20px;
+}
+
+.Convertbtn:hover{
+ background-color:  rgb(61, 61, 218);
+ border: 1px solid rgb(165, 165, 255);
+}

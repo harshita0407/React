@@ -7,7 +7,7 @@ const Accordion = ({title ,content}) => {
 
         <div>
 
-            <button onClick={()=>SetIsOpen(!IsOpen)}>{title} {IsOpen ? " ▲" : " ▼"}</button>
+            <button onClick={()=>SetIsOpen(!IsOpen)}>{title} {IsOpen ? "▲" : " ▼"}</button>
             {IsOpen && <p>{content}</p>}
         </div>
     )
