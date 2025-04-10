@@ -20,8 +20,7 @@ function App() {
   return (
     <>
     <Navbar title="TextUtils"/>
-    <div className='container'>
-    <TextForm heading="Enter the text to analyze"/></div>
+    <TextForm heading="Enter the text to analyze"/>
     {/* <SearchFilter/> */}
     {/* <Counter/> */}
     {/* <h2>JavaScript Framwork</h2>
