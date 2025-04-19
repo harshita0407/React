@@ -1,66 +1,82 @@
-/* .App {
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  height: 100vh;
+  padding: 20px;
+}
+
+.login-left, .login-right {
+  background: #7c0ab1;
+  padding: 30px ;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+  width: 270px;
+  margin: 10px 0;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+.login-left{
+  width: 400px;
+}
+
+
+.login-left h1 {
+  color: #e10068;
+  font-size: 2rem;
+}
+
+.login-left p {
+  font-size: 1.9rem;
+  margin-bottom: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.login-left input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.login-left button {
+  width: 100%;
+  padding: 10px;
+  background-color:  #ef4372;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-left .terms {
+  padding-top: 20px;
+  font-size: 0.85rem;
+  margin-top: 10px;
+  color: whitesmoke;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.login-left .terms a {
+  color: #ef4372;
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.login-right img {
+  width: 120px;
+  margin: 10px 0;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app-links {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 5px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
- */
-/* .p-4{
-  background-color: lightblue;
-  width: 500px;
-  border: 1px solid rgb(0, 0, 0);
-  margin: 40px 50px;
-} */
-
-.Convertbtn{
-  background-color: rgb(85, 85, 209);
-  color: white;
-  font-weight: 500;
-  border-radius: 6px;
-  border: 1px solid rgb(91, 91, 223);
-  padding: 5px;
-  margin-top: 20px;
-}
-
-.Convertbtn:hover{
- background-color:  rgb(61, 61, 218);
- border: 1px solid rgb(165, 165, 255);
-}
-
-.container{
-  margin-top: 20px;
- 
-} 
-

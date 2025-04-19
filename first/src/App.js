@@ -1,82 +1,42 @@
-// import logo from './logo.svg';
-import React from 'react';
-// import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-// import Home from './practical/Home';
-// import About from './practical/About';
-// import Contact from './practical/Contact';
+import './App.css'
+// import React, { useState } from 'react';
+// import Navbar from './zepto/Navbar';
+// import Main from './zepto/Main';
+// import Coffee from './zepto/Coffee';
+// import Elevate from './zepto/Elevate'; 
+// import Store from './zepto/Store';
+// import Home from './zepto/Home';
+// import Meal from './zepto/Meal';
+// import Newstore from './zepto/Newstore';
+// import Howitworks from './zepto/Howitworks';
+// import Search from './zepto/Search';
+// import Categories from './zepto/Categories';
+// import Footer from './zepto/Footer';
+import LoginForm from './zepto/LoginForm';
 
-import './App.css';
-// import Login from './practical/Login';
-// import CheckList from './practical/CheckList';
-// import Accordion from './practical/Accordion';
-// import Slider from './practical/Slider';
-import Navbar from './components/Navbar';
-import TextForm from './components/TextForm';
-// import SearchFilter from './practical/SeacrhFilter';
-// import Counter from './practical/Counter';
-// import ItemList from './practical/ItemList';
+
 
 function App() {
+  // const [searchTerm, setSearchTerm] = useState('');
   return (
     <>
-    <Navbar title="TextUtils"/>
-    <TextForm heading="Enter the text to analyze"/>
-    {/* <SearchFilter/> */}
-    {/* <Counter/> */}
-    {/* <h2>JavaScript Framwork</h2>
-    <ItemList/> */}
-
-    {/* <h1>Simple Accordion</h1>
-
-    <Accordion title="Section1" content="This is content of section1"/>
-    <Accordion title="Section2" content="This is content of section2"/>
-    <Accordion title="Section3" content="This is content of section3"/>
- */}
-
-    {/* <h1>Simple Siler image</h1>
-    <Slider/> */}
-    {/* <CheckList/> */}
-
-    {/* <Login/> */}
-
-
-    
-
-
-  {/* return (
-    <Router>
-      <nav style={styles.nav}>
-        <Link to="/" style={styles.link}>Home</Link>
-        <Link to="/about" style={styles.link}>About</Link>
-        <Link to="/contact" style={styles.link}>Contact</Link>
-      </nav>
-
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-    </Router>
-   */}
-
-
-
+    <LoginForm/>
+    {/* <div className="content-wrapper">
+      <Navbar searchTerm={searchTerm} setSearchTerm={setSearchTerm}/>
+      <Main />
+      <Coffee searchTerm={searchTerm}/> 
+      <Elevate searchTerm={searchTerm}/>
+      <Store />
+      <Home />
+      <Meal searchTerm={searchTerm}/>
+      <Newstore searchTerm={searchTerm}/>
+      <Howitworks />
+      <Search />
+      <Categories />
+      <Footer />    
+    </div> */}
     </>
-  );
+  )
 }
 
-// const styles = {
-//   nav: {
-//     display: 'flex',
-//     gap: '20px',
-//     padding: '10px',
-//     background: '#eee',
-//   },
-//   link: {
-//     textDecoration: 'none',
-//     color: 'black',
-//     fontWeight: 'bold',
-//   },
-// };
-
-export default App;
+export default App
