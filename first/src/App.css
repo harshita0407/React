@@ -28,45 +28,50 @@
   border-radius: 0 12px 12px 0;
   width: 250px;
   padding: 30px ;
+  background-size:cover;
 }
 
 .login-left{
-  width: 500px;
+  width: 450px;
   height: 500px;
   background-image: url('zepto/loginleft.svg');
   border-radius: 12px 0 0 12px;
   padding: 30px ;
-  
+  background-size:cover;
 }
 
+.login-left img{
+  margin: 57px 0 5px 0;
+}
 
-.login-left h1 {
+/* .login-left h1 {
   color: #e10068;
   font-size: 2rem;
-}
+ 
+} */
 
 .login-left p {
-  font-size: 1.9rem;
-  margin-bottom: 20px;
+  font-size: 2.3rem;
   color: white;
   font-weight: bold;
+  margin: 15px 40px 7px 0;
 }
 
 .login-left input {
   width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border-radius: 8px;
+  padding: 13px;
+  margin: 20px 0 18px 0;
+  border-radius: 20px;
   border: 1px solid #ccc;
 }
 
 .login-left button {
   width: 100%;
-  padding: 10px;
+  padding: 13px;
   background-color:  #ef4372;
   color: white;
   border: none;
-  border-radius: 8px;
+  border-radius: 20px;
   cursor: pointer;
   font-weight: bold;
 }
@@ -74,8 +79,8 @@
 .login-left .terms {
   padding-top: 20px;
   font-size: 0.85rem;
-  margin-top: 10px;
-  color: whitesmoke;
+  margin: 15px 0 10px 0;
+ color: whitesmoke;
   text-align: center;
 }
 
