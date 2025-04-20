@@ -11,7 +11,7 @@ const LoginForm = () => {
   return (
     <div className="login-container">
       <div className="login-left">
-        <img src="/images/zepto.png" alt="Zepto" />
+        <img src="zepto/loginlogo.svg" alt="Zepto" />
         <p>Groceries delivered in 10 minutes</p>
         <form onSubmit={handleSubmit}>
           <input
@@ -27,6 +27,8 @@ const LoginForm = () => {
         </form>
       </div>
       <div className="login-right">
+       
+       {/* < img src='https://cdn.zeptonow.com/web-static-assets-prod/artifacts/12.68.0/_next/static/media/bg-desktop.7efcec3a.png'/> */}
         <img src="https://cdn.zeptonow.com/web-static-assets-prod/artifacts/12.67.1/tr:w-100,ar-100-100,pr-true,f-auto,q-80//images/get-the-app/get-the-app-phone.png" alt="Zepto app" />
         <h3 className='upper'>Order faster & easier everytime</h3>
         <p className='lower'>with the Zepto App</p>

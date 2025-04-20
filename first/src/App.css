@@ -5,27 +5,38 @@
   background: white;
   height: 100vh;
   padding: 20px;
+  background-color: rgb(236, 236, 236);
 }
 
-.login-left, .login-right {
-  background: #7c0ab1;
-  padding: 30px ;
-  border-radius: 12px;
-  box-shadow: 0 0 12px rgba(0,0,0,0.1);
-  width: 250px;
-  margin: 10px 0;
-  -webkit-border-radius: 12px;
+/* .login-left, .login-right {
+  /* background: #7c0ab1; */
+  /* padding: 30px ; */
+  /* border-radius: 12px; */
+  /* box-shadow: 0 0 12px rgba(0,0,0,0.1); */
+  /* width: 250px; */
+  /* margin: 10px 0; */
+  /* -webkit-border-radius: 12px;
   -moz-border-radius: 12px;
   -ms-border-radius: 12px;
-  -o-border-radius: 12px;
-}
+  -o-border-radius: 12px; 
+} */
 
 .login-right{
-  background-color: #ef4372;
+  background-image: url('https://cdn.zeptonow.com/web-static-assets-prod/artifacts/12.68.0/_next/static/media/bg-desktop.7efcec3a.png');
+  background-color: white;
+  background-repeat: no-repeat;
+  border-radius: 0 12px 12px 0;
+  width: 250px;
+  padding: 30px ;
 }
 
 .login-left{
-  width: 400px;
+  width: 500px;
+  height: 500px;
+  background-image: url('zepto/loginleft.svg');
+  border-radius: 12px 0 0 12px;
+  padding: 30px ;
+  
 }
 
 
