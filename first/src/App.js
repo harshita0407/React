@@ -1,4 +1,5 @@
 import './App.css'
+import LoginContinue from './zepto/LoginContinue'
 // import React, { useState } from 'react';
 // import Navbar from './zepto/Navbar';
 // import Main from './zepto/Main';
@@ -12,7 +13,7 @@ import './App.css'
 // import Search from './zepto/Search';
 // import Categories from './zepto/Categories';
 // import Footer from './zepto/Footer';
-import LoginForm from './zepto/LoginForm';
+// import LoginForm from './zepto/LoginForm';
 
 
 
@@ -20,7 +21,8 @@ function App() {
   // const [searchTerm, setSearchTerm] = useState('');
   return (
     <>
-    <LoginForm/>
+    <LoginContinue/>
+    {/* <LoginForm/> */}
     {/* <div className="content-wrapper">
       <Navbar searchTerm={searchTerm} setSearchTerm={setSearchTerm}/>
       <Main />
