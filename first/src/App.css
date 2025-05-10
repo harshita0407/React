@@ -130,7 +130,7 @@
   font-weight: none;
 } */
 
-.login-container {
+/* .login-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -138,7 +138,7 @@
   height: 100vh;
   padding: 20px;
   background-color: rgb(236, 236, 236);
-}
+} */
 
 /* .login-left, .login-right {
   /* background: #7c0ab1; */
@@ -152,7 +152,7 @@
   -ms-border-radius: 12px;
   -o-border-radius: 12px; 
 } */
-
+/* 
 .login-right{
   background-image: url('https://cdn.zeptonow.com/web-static-assets-prod/artifacts/12.68.0/_next/static/media/bg-desktop.7efcec3a.png');
   background-color: white;
@@ -182,7 +182,7 @@
  
 } */
 
-.login-left p {
+/* .login-left p {
   font-size: 2.3rem;
   color: white;
   font-weight: bold;
@@ -250,4 +250,4 @@
   text-align: center;
   font-size: 0.90rem;
   font-weight: none;
-}
+} */ 
