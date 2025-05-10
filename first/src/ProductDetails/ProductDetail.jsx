@@ -1,12 +1,12 @@
-// import SimilarItem from "./components/ListItems/SimilarItem";
-// import './ProductDetail/components/ListItems/Item.css'
-// import { useState } from "react";
+import SimilarItem from "./components/ListItems/SimilarItem";
+import { useState } from "react";
 function ProductDetail() {
-      // const [searchTerm, setSearchTerm] = useState('');
+      const [searchTerm, setSearchTerm] = useState('');
 return(
 
     <>
     <div className="Product">
+      <div style={{display:'flex',}}>
         <div>
     <div className="Nav">
         <span><a href="https://www.zeptonow.com/">Home</a>
@@ -338,15 +338,14 @@ return(
             <td>Seller License No.</td>
             <td>11522998001570</td>
           </tr>
-          <tr>
-            <td>Seller License No.</td>
-            <td>11522998001570</td>
-          </tr>
+         
      </table>
         </div>
-    </div>
+  
+    </div></div>
 
-  {/* <SimilarItem searchTerm={searchTerm} title={'Similar Product'}/> */}
+  <div><SimilarItem searchTerm={searchTerm} title={'Similar Product'}/></div>
+   <div><SimilarItem searchTerm={searchTerm} title={'You might also like'}/></div>
    
 </div>
     </>

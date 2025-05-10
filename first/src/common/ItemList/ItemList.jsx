@@ -83,10 +83,10 @@ const SimilarItem = ({ searchTerm ,title}) => {
               <img src={item.image} alt={item.name} />
               <p className='itemName'>{item.name}</p>
               <p className="ml">{item.volume}</p>
-              <p className="price">
+              <div className='priceAndbtn'><p className="price">
                 ₹{item.price} <del>₹{item.originalPrice}</del>
               </p>
-              <button>Add to cart</button>
+              <button>Add</button></div>
             </div>
           ))}
         </div>
@@ -96,4 +96,3 @@ const SimilarItem = ({ searchTerm ,title}) => {
 };
 
 export default SimilarItem;
-

@@ -40,8 +40,7 @@
 }
 
 .Product{
-    margin-left: 80px;
-    display: flex;
+    margin: 0 50px;
 }
 
 .Detail{
@@ -57,7 +56,7 @@
     height: 730px;
     border-radius: 14px;
     border: 1px solid rgb(218, 218, 218);
-    margin: 74px 0 25px 20px;
+    margin: 74px 0 25px 0;
 }
 
 .AddtoCart{
