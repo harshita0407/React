@@ -61,14 +61,17 @@
 // }
 
 // export default App
-import SimilarItem from "./ProductDetail/components/ListItems/SimilarItem";
-import { useState } from "react";
-import './ProductDetail/components/ListItems/Item.css'
+
+// import { useState } from "react";
+import './ProductDetails/product.css'
+import ProductDetail from './ProductDetails/ProductDetail';
 function App() {  
-  const [searchTerm, setSearchTerm] = useState('');
+  // const [searchTerm, setSearchTerm] = useState('');
   return (
     <div className="App">
-    <SimilarItem searchTerm={searchTerm} title={'Similar Product'}/>
+     
+    <ProductDetail/>
+   
     </div>
   );
 }

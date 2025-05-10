@@ -1,5 +1,8 @@
-function productDetails() {
-    
+// import SimilarItem from "./components/ListItems/SimilarItem";
+// import './ProductDetail/components/ListItems/Item.css'
+// import { useState } from "react";
+function ProductDetail() {
+      // const [searchTerm, setSearchTerm] = useState('');
 return(
 
     <>
@@ -342,6 +345,8 @@ return(
      </table>
         </div>
     </div>
+
+  {/* <SimilarItem searchTerm={searchTerm} title={'Similar Product'}/> */}
    
 </div>
     </>
@@ -349,4 +354,4 @@ return(
 
 }
 
-export default productDetails;
+export default ProductDetail;
