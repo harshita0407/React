@@ -1,0 +1,50 @@
+.AddtoCart{
+    padding: 12px 80px;
+    background-color:  #fa3778;
+    color:white;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 20px 0 0 0;
+    
+    text-align: center;
+    border-radius: 8px;
+
+}
+
+.itemName{
+    font-size: 14px;
+    padding: 10px 4px 0 4px;
+    height: 40px;
+  }
+  
+  .price {
+    color: black;
+    font-size: 13px;
+    font-weight: 550;
+    gap:1px;
+    padding: 0 0 0 3px;
+  }
+  
+  .ml {
+    font-size: 14px;
+    padding: 3px 0 0 3px;
+  }
+  del {
+    color: grey;
+    font-size: 10px;
+  }
+
+  .PopNav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 120px;
+    background-color: aliceblue;
+  }
+  
+  
+  .ItemImg img{
+    width: 100px;
+    height: 100px;
+     border-radius: 8px;
+  }
