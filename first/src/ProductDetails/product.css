@@ -7,7 +7,7 @@
 }
 
 .Nav{
-    margin: 120px 0 0 50px;
+    margin: 120px 0 0 35px;
 }
 
 .itemimage2{
@@ -33,21 +33,27 @@
     display: flex;
     gap: 4px;
     
+    
 }
 
 .itemimage1{
-    margin: 40px 0 0 59px;
+    margin: 40px 0 0 40px;
 }
 
-.Product{
-    margin: 0 50px;
+
+.Product2{
+     
+    display: grid;
+     place-items: center; 
+     height: 100vh;
+    
 }
 
 .Detail{
     margin-top: 110px;
-    /* overflow-y: scroll;
+    overflow-y: scroll;
     scroll-behavior: smooth;
-    height: 600px; */
+    height: 600px;
 }
 
 
@@ -56,7 +62,7 @@
     height: 730px;
     border-radius: 14px;
     border: 1px solid rgb(218, 218, 218);
-    margin: 74px 0 25px 0;
+    margin: 74px 40px 25px 20px;
 }
 
 .AddtoCart{
@@ -66,10 +72,11 @@
     border: none;
     font-weight: bold;
     font-size: 16px;
-    margin: 20px 0 0 130px;
+    margin: 20px 0 0 115px;
     width: 450px;
     text-align: center;
     border-radius: 8px;
+
 }
 
 .DetailSec1 h3{
@@ -167,3 +174,10 @@
 .DetailSec2 td{
     padding: 10px 10px 20px 0;
 }
+
+.separation {
+    height: 2px;
+    background-color: #e4e0e0;
+    width: 97%;
+    border: none;
+  }

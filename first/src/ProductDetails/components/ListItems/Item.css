@@ -1,16 +1,16 @@
 h5{
-    margin: 20px 0 20px 72px;
+    margin: 40px 0 20px 11.5%;
 }
 
 .slides {
-   margin: 10px 20px 0 65px;
+   margin: 10px 160px 0 145px;
   }
   
   .slider {
     display: flex;
     overflow-x: auto;
     /* padding-bottom: 10px; */
-    gap: 16px;
+    gap: 5px;
     scroll-behavior: smooth;
     
   }

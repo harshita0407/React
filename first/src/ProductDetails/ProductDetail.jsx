@@ -6,6 +6,7 @@ return(
 
     <>
     <div className="Product">
+      <div className="Product2">
       <div style={{display:'flex',}}>
         <div>
     <div className="Nav">
@@ -69,6 +70,7 @@ return(
        <div className="item"></div>
        <div className="item"></div>
       </div>
+      
       <div className="itemimage2"></div></div>
       <button className="AddtoCart">Add To Cart</button> </div>
 
@@ -346,8 +348,10 @@ return(
 
   <div><SimilarItem searchTerm={searchTerm} title={'Similar Product'}/></div>
    <div><SimilarItem searchTerm={searchTerm} title={'You might also like'}/></div>
+   </div>
    
 </div>
+
     </>
 )
 

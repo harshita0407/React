@@ -66,13 +66,13 @@ import { useState } from "react";
 import './ProductDetails/product.css'
 import './ProductDetails/components/ListItems/Item.css'
 import ProductDetail from './ProductDetails/ProductDetail';
-// import Navbar from './zepto/Navbar'
-// import './zepto/zepto.css'
+import Navbar from './zepto/Navbar/Navbar'
+import './zepto/Navbar/Nav.css'
 function App() {  
   const [searchTerm, setSearchTerm] = useState('');
   return (
     <div className="App">
-    {/* <Navbar searchTerm={searchTerm} setSearchTerm={setSearchTerm}/> */}
+    <Navbar searchTerm={searchTerm} setSearchTerm={setSearchTerm}/>
     <ProductDetail/>
    
     </div>
