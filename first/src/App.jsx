@@ -63,21 +63,26 @@
 // export default App
 
 import { useState } from "react";
+import CouponSilder from "./ProductDetails/components/CouponSlider/CouponSilder";
+import './ProductDetails/components/CouponSlider/Coupon.css'
 // import './ProductDetails/product.css'
 // import './ProductDetails/components/ListItems/Item.css'
 // import ProductDetail from './ProductDetails/ProductDetail';
 // import Navbar from './zepto/Navbar/Navbar'
 // import './zepto/Navbar/Nav.css'
-import ItemPopUp from "./ProductDetails/components/ProductPopUp/ItemPopUp";
-import './ProductDetails/components/ProductPopUp/PopUp.css'
+// import ItemPopUp from "./ProductDetails/components/ProductPopUp/ItemPopUp";
+// import './ProductDetails/components/ProductPopUp/PopUp.css'
 function App() {  
   const [searchTerm, setSearchTerm] = useState('');
   return (
     <div className="App">
     {/* <Navbar searchTerm={searchTerm} setSearchTerm={setSearchTerm}/> */}
     {/* <ProductDetail/> */}
-     <ItemPopUp/>
+     {/* <ItemPopUp/> */}
+
+     <CouponSilder/>
     </div>
+    
   );
 }
 export default App;

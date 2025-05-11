@@ -5,41 +5,38 @@
     border: none;
     font-weight: bold;
     font-size: 14px;
-    margin: 20px 0 0 0;
-    
-    text-align: center;
+
     border-radius: 8px;
 
 }
 
-.itemName{
+.ProductName{
     font-size: 14px;
-    padding: 10px 4px 0 4px;
-    height: 40px;
+    padding: 2px 4px 0 4px;
+    margin-bottom: 2px;
   }
   
   .price {
     color: black;
-    font-size: 13px;
+    font-size: 18px;
     font-weight: 550;
     gap:1px;
     padding: 0 0 0 3px;
   }
   
-  .ml {
-    font-size: 14px;
-    padding: 3px 0 0 3px;
-  }
+  
   del {
     color: grey;
-    font-size: 10px;
+    font-size: 14px;
   }
 
   .PopNav{
     display: flex;
     justify-content: space-between;
-    margin: 20px 120px;
-    background-color: aliceblue;
+    padding: 20px 120px;
+    background-color: white;
+    place-items: center;
+    box-shadow: 0 5px 20px #e5e7eb;
   }
   
   
