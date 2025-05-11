@@ -73,7 +73,8 @@ import './ProductDetails/components/CouponSlider/Coupon.css'
 // import ItemPopUp from "./ProductDetails/components/ProductPopUp/ItemPopUp";
 // import './ProductDetails/components/ProductPopUp/PopUp.css'
 function App() {  
-  const [searchTerm, setSearchTerm] = useState('');
+  // const [searchTerm, setSearchTerm] = useState('');
+  
   return (
     <div className="App">
     {/* <Navbar searchTerm={searchTerm} setSearchTerm={setSearchTerm}/> */}
